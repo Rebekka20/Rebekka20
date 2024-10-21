@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Rebekka #
 
-- 🌱 I’m currently study Data and Information Science
+- 🌱 I’m currently studying Data and Information Science
 
 
 
