@@ -1,0 +1,85 @@
+  400  cd https://gitlab.com/slackermedia/bashcrawl/-/tree/master/entrance?ref_type=heads
+  401  clear
+  402  git clone https://gitlab.com/slackermedia/bashcrawl.git
+  403  cd bashcrawl
+  404  [200~cd entrance
+  405  cd entrance
+  406  cd bashcrawl
+  407  cd entrance
+  408  cat scroll
+  409  ls
+  410  cd cellar
+  411  ls
+  412  cd treasure
+  413  pwd
+  414  ls -l
+  415  cat treasure
+  416  cd armoury
+  417  ls
+  418  cd chamber
+  419  ls
+  420  cat treasure
+  421  ./treasure
+  422  export I=coins,$I
+  423  echo $I
+  424  cd entrance
+  425  cd ..armoury
+  426  cd armoury
+  427  cd ..
+  428  cd ..
+  429  cd ..
+  430  ls
+  431  cd scroll
+  432  cat scroll
+  433  ls
+  434  pwd
+  435  cd cellar
+  436  ls
+  437  cd armoury
+  438  ls
+  439  cat potion
+  440  ./potion
+  441  export HP=15
+  442  echo $HP
+  443  pwd
+  444  ls
+  445  cat treasure
+  446  ls
+  447  cat scroll
+  448  cd ..
+  449  ls
+  450  cd armoury
+  451  ls
+  452  cd chamber
+  453  ls
+  454  cat scroll
+  455  cd ..
+  456  ls
+  457  cd chamber
+  458  ls
+  459  cat spell
+  460  ./spell
+  461  ls
+  462  cat statue
+  463  ./statue
+  464  let "HP=HP-5"
+  465  ls
+  466  echo HP
+  467  echo $HP
+  468  ln -fs ../../../chapel/courtyard/aviary/hall portal
+  469  ls
+  470  cd portal
+  471  ls
+  472  cat monster
+  473  ls
+  474  cd library
+  475  ls
+  476  cat scroll
+  477  cat tome
+  478  ./tome
+  479  pushd <room>
+  480  ls
+  481  pwd
+  482  history -100 >> bashcrawl.log
+  483  history 100
+  484  history 100 >> bashcrawl.log
