@@ -1,0 +1,200 @@
+  460  cd 'Eigene Bilder'@
+  461  cd Eigene Bilder
+  462  ls
+  463  cd eigene bilder
+  464  cd ..
+  465  ls
+  466  cd .
+  467  ls
+  468  cd shell-lesson.zip
+  469  cat shell-lesson.zip
+  470  ls
+  471  cd Documents
+  472  ls
+  473  cd /Eigene Bilder
+  474  cd /'Eigene Bilder'
+  475  ./Eigene Bilder
+  476  pwd
+  477  ls
+  478  ./ 'Eigene Bilder'
+  479  ls
+  480  pwd
+  481  cd ./ 'Eigene Bilder'
+  482  ..
+  483  ../
+  484  ./'Eigene Bilder'
+  485  pwd
+  486  ../Rebekka
+  487  ../ Rebekka
+  488  pwd
+  489  cd Rebekka
+  490  cd /Rebekka
+  491  pwd
+  492  ls
+  493  cd 'Eigene Bilder'
+  494  ls -l
+  495  cd `Eigene Bilder´
+  496  clear
+  497  date
+  498  pwd
+  499  ls
+  500  cd OneDrive
+  501  ls
+  502  cd Desktop
+  503  ls
+  504  cd desktop
+  505  ../
+  506  cd OneDrive
+  507  cd ..
+  508  ls
+  509  cd Bilder
+  510  ls
+  511  cd Desktop
+  512  ls
+  513  cd DIS
+  514  ls
+  515  cd 3DataScience
+  516  ls
+  517  cd DIS08DataModelling
+  518  ls
+  519  [200~head -n 3 2014-01_JA.tsv
+  520  head -n 3 2014-01_JA.tsv
+  521  clear
+  522  ls
+  523  $ head -n 3 2014-01_JA.tsv
+  524  clear
+  525  ls
+  526   head -n 3 2014-01_JA.tsv
+  527  nano aufgaben.sh
+  528  ls
+  529  git add aufgaben.sh
+  530  pwd
+  531  ls
+  532  cd Rebekka20
+  533  ls
+  534  git status
+  535  git add aufgaben.sh
+  536  * text=auto eol=lf
+  537  * text=auto
+  538  *.sh text eol=lf
+  539  git add .gitattributes
+  540  git commit -m "Add .gitattributes to control line endings"
+  541  git push
+  542  git pull origin main
+  543  git status
+  544  git add github.docx screenshot_Bash.docx
+  545  git commit -m "Add new documents"
+  546  git push origin main
+  547  echo "*.docx" >> .gitignore
+  548  git add .gitignore
+  549  git commit -m "Add .gitignore to exclude docx files"
+  550  git push origin main
+  551  git pull origin main
+  552  cd assignment/03/
+  553  ls
+  554  git status
+  555  git add ../../lesson.sh
+  556  git commit -m "Add lesson.sh file from another directory"
+  557  git push origin main
+  558  history 100
+  559  history 100 > befehle.txt
+  461  cd Eigene Bilder
+  462  ls
+  463  cd eigene bilder
+  464  cd ..
+  465  ls
+  466  cd .
+  467  ls
+  468  cd shell-lesson.zip
+  469  cat shell-lesson.zip
+  470  ls
+  471  cd Documents
+  472  ls
+  473  cd /Eigene Bilder
+  474  cd /'Eigene Bilder'
+  475  ./Eigene Bilder
+  476  pwd
+  477  ls
+  478  ./ 'Eigene Bilder'
+  479  ls
+  480  pwd
+  481  cd ./ 'Eigene Bilder'
+  482  ..
+  483  ../
+  484  ./'Eigene Bilder'
+  485  pwd
+  486  ../Rebekka
+  487  ../ Rebekka
+  488  pwd
+  489  cd Rebekka
+  490  cd /Rebekka
+  491  pwd
+  492  ls
+  493  cd 'Eigene Bilder'
+  494  ls -l
+  495  cd `Eigene Bilder´
+  496  clear
+  497  date
+  498  pwd
+  499  ls
+  500  cd OneDrive
+  501  ls
+  502  cd Desktop
+  503  ls
+  504  cd desktop
+  505  ../
+  506  cd OneDrive
+  507  cd ..
+  508  ls
+  509  cd Bilder
+  510  ls
+  511  cd Desktop
+  512  ls
+  513  cd DIS
+  514  ls
+  515  cd 3DataScience
+  516  ls
+  517  cd DIS08DataModelling
+  518  ls
+  519  [200~head -n 3 2014-01_JA.tsv
+  520  head -n 3 2014-01_JA.tsv
+  521  clear
+  522  ls
+  523  $ head -n 3 2014-01_JA.tsv
+  524  clear
+  525  ls
+  526   head -n 3 2014-01_JA.tsv
+  527  nano aufgaben.sh
+  528  ls
+  529  git add aufgaben.sh
+  530  pwd
+  531  ls
+  532  cd Rebekka20
+  533  ls
+  534  git status
+  535  git add aufgaben.sh
+  536  * text=auto eol=lf
+  537  * text=auto
+  538  *.sh text eol=lf
+  539  git add .gitattributes
+  540  git commit -m "Add .gitattributes to control line endings"
+  541  git push
+  542  git pull origin main
+  543  git status
+  544  git add github.docx screenshot_Bash.docx
+  545  git commit -m "Add new documents"
+  546  git push origin main
+  547  echo "*.docx" >> .gitignore
+  548  git add .gitignore
+  549  git commit -m "Add .gitignore to exclude docx files"
+  550  git push origin main
+  551  git pull origin main
+  552  cd assignment/03/
+  553  ls
+  554  git status
+  555  git add ../../lesson.sh
+  556  git commit -m "Add lesson.sh file from another directory"
+  557  git push origin main
+  558  history 100
+  559  history 100 > befehle.txt
+  560  history 100 >> befehle.txt
